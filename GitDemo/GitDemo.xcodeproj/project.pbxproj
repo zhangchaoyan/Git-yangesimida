@@ -13,6 +13,7 @@
 		3976BBA71CAE50F9004EAC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3976BBA51CAE50F9004EAC42 /* Main.storyboard */; };
 		3976BBA91CAE50F9004EAC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3976BBA81CAE50F9004EAC42 /* Assets.xcassets */; };
 		3976BBAC1CAE50F9004EAC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3976BBAA1CAE50F9004EAC42 /* LaunchScreen.storyboard */; };
+		3976BBB51CAE5540004EAC42 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3976BBB41CAE5540004EAC42 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3976BBA81CAE50F9004EAC42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3976BBAB1CAE50F9004EAC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3976BBAD1CAE50F9004EAC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3976BBB31CAE5540004EAC42 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3976BBB41CAE5540004EAC42 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3976BBAA1CAE50F9004EAC42 /* LaunchScreen.storyboard */,
 				3976BBAD1CAE50F9004EAC42 /* Info.plist */,
 				3976BB9C1CAE50F9004EAC42 /* Supporting Files */,
+				3976BBB31CAE5540004EAC42 /* Person.h */,
+				3976BBB41CAE5540004EAC42 /* Person.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				3976BBA41CAE50F9004EAC42 /* ViewController.m in Sources */,
 				3976BBA11CAE50F9004EAC42 /* AppDelegate.m in Sources */,
+				3976BBB51CAE5540004EAC42 /* Person.m in Sources */,
 				3976BB9E1CAE50F9004EAC42 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				3976BBB21CAE50F9004EAC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
